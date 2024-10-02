@@ -1,1 +1,0 @@
-# C-Sharp-Class-02-Variables.sln

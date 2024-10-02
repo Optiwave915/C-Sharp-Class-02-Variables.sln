@@ -1,0 +1,212 @@
+# C-Sharp-Class-02-Variables.sln
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _02_Variables
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            #region Double Değişkenler
+            //double number;
+
+            //number = 5.4 ;
+            //Console.WriteLine(number);
+
+
+
+
+            //double ApplePrice, OrangePrice, LemonPrice, MushroomPrice, StrawberryPrice;
+
+            //ApplePrice = 1.5;
+            //OrangePrice = 0.8;
+            //LemonPrice = 0.1;
+            //MushroomPrice = 13.75;
+            //StrawberryPrice = 10.50;
+
+
+            //Console.WriteLine("******** Fiyat Listesi *********");
+            //Console.WriteLine();
+            //Console.WriteLine(" Elma Birim Fiyatı: " + ApplePrice + " TL");
+            //Console.WriteLine(" Portakal Birim Fiyatı: " + OrangePrice + " TL");
+            //Console.WriteLine(" Limon Birim Fiyatı: " + LemonPrice + " TL");
+            //Console.WriteLine(" Çilek Birim Fiyatı: " + StrawberryPrice + " TL");
+            //Console.WriteLine(" Mantar Birim Fiyatı: " + MushroomPrice + " TL");
+
+            //double AppleGram, OrangeGram, LemonGram, MushroomGram, StrawberryGram;
+            //AppleGram = 1.2;
+            //OrangeGram = 2.5;
+            //LemonGram = 3.4;
+            //MushroomGram = 5.5;
+            //StrawberryGram = 4.5;
+
+            //double AppleTotalPrice = AppleGram * ApplePrice;
+            //double OrangeTotalPrice = OrangeGram * OrangePrice;
+            //double LemonTotalPrice = LemonGram * LemonPrice;
+            //double MushroomTotalPrice = MushroomGram * MushroomPrice;
+            //double StrawberryTotalPrice = LemonGram * LemonPrice;
+            //Console.WriteLine();
+            //Console.WriteLine();
+
+            //Console.WriteLine(" Alınan Ürün: Elma- " + "Birim Fiyatı: " + ApplePrice + " - Gram: "+ AppleGram + " Toplam Tutar: " + AppleTotalPrice);
+            //Console.WriteLine(" Alınan Ürün: Portakal- " + "Birim Fiyatı: " + OrangePrice + " - Gram: "+ OrangeGram + " Toplam Tutar: " + OrangeTotalPrice);
+            //Console.WriteLine(" Alınan Ürün: Limon- " + "Birim Fiyatı: " + LemonPrice + " - Gram: "+ LemonGram + " Toplam Tutar: " + LemonTotalPrice);
+            //Console.WriteLine(" Alınan Ürün: Mantar- " + "Birim Fiyatı: " + MushroomPrice + " - Gram: "+ MushroomGram + " Toplam Tutar: " + MushroomTotalPrice);
+            //Console.WriteLine(" Alınan Ürün: Çilek- " + "Birim Fiyatı: " + StrawberryPrice + " - Gram: "+ StrawberryGram + " Toplam Tutar: " + StrawberryTotalPrice);
+
+            //double shoppingTotalPrice = AppleTotalPrice + OrangeTotalPrice + LemonTotalPrice + MushroomTotalPrice + StrawberryTotalPrice;
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine(" Toplam Bütün Tutar: " + shoppingTotalPrice + "TL");
+
+
+
+
+
+
+
+            #endregion
+
+            #region Char Değişkenler
+            //char symbol;
+            //symbol = 'A';
+            //Console.WriteLine(symbol);
+
+
+
+
+            #endregion
+
+            #region Klavyeden Veri Girişleri
+
+
+            //Console.WriteLine();
+            //Console.WriteLine("**** C Sharp Havayollar *****");
+            //string passengerName, passengerSurname, passengerDistrict, passengerCity, passengerAge, passengerIdentityNumber;
+
+
+
+            //Console.Write(" Yolcu Adı: ");
+            //passengerName = Console.ReadLine();
+
+            //Console.Write(" Yolcu Soyadı: ");
+            //passengerSurname = Console. ReadLine ();
+
+            //Console.Write("İlçe: ");
+            //passengerDistrict = Console.ReadLine();
+            //Console.Write(" Şehir:");
+            //passengerCity = Console.ReadLine();
+            //Console.Write(" Yaş:");
+            //passengerAge = Console.ReadLine();
+            //Console.Write(" T.C. Kimlik No");
+            // passengerIdentityNumber = Console.ReadLine();
+
+            //Console.WriteLine();
+
+            //Console.WriteLine("---------------");
+            //Console.WriteLine("Yolcu Adı Soyadı:" + passengerName + " " + passengerSurname + " " + passengerIdentityNumber + " " + passengerCity + " " + passengerDistrict + " " + passengerAge);
+
+
+
+
+
+
+            #endregion
+
+
+            #region Klavyeden Tamsayı Girişleri ve Dönüşümler
+
+            //int shoesPrice, TvPrice, ChairPrice, laptopPrice;
+
+            //shoesPrice = 500;
+            //TvPrice = 1000;
+            //ChairPrice = 200;
+            //laptopPrice = 20000;
+
+            //int shoesCount, TvCount, ChairCount, laptopCount;
+
+            //Console.Write("Lütfen aldığınız Ayakkabı sayısını giriniz: ");
+            //shoesCount = int.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen aldığınız Tv sayısını giriniz: ");
+            //TvCount = int.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen aldığınız Sandalye sayısını giriniz: ");
+            //ChairCount = int.Parse(Console.ReadLine()); 
+
+            //Console.Write("Lütfen aldığınız Laptop sayısını giriniz: ");
+            //laptopCount = int.Parse(Console.ReadLine());
+
+            //int totalPrice = shoesCount * shoesPrice + TvCount * TvPrice + ChairPrice * ChairCount + laptopPrice * laptopCount;
+            //Console.WriteLine();
+            //Console.WriteLine(" Toplam Ödemeniz Gereken Tutar: " + totalPrice);
+
+
+
+
+
+
+
+
+            #endregion
+
+
+
+            #region Klavyeden Ondalıklı Sayı İşlemleri
+
+            //double exam1, exam2, exam3, result;
+
+            
+
+            //Console.Write("Lütfen 1. Sınav Puanı giriniz: ");
+            //exam1 = int.Parse(Console.ReadLine());
+           
+            //Console.Write("Lütfen 2. Sınav Puanı giriniz: ");
+            //exam2 = int.Parse(Console.ReadLine()); 
+           
+            //Console.Write("Lütfen 3. Sınav Puanı giriniz: ");
+            //exam3 = int.Parse(Console.ReadLine());
+              
+            //result = (exam1 + exam2 + exam3) / 3;
+            
+            //Console.Write(" Sınav Ortalaması: " + result );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            #endregion
+
+            #region Klavyeden Karakter Girişleri
+
+
+            char gender;
+            Console.Write(" Lütfen cinsiyet girin: ");
+            gender = char.Parse(Console.ReadLine());
+
+            Console.WriteLine (" Seçtiğiniz Cinsiyet:" + gender);
+
+
+
+
+
+            #endregion
+
+
+
+            Console.Read();
